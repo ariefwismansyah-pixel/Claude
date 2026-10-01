@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1b8a43">
+  <title>SIMPEGRS v2.0 — Prototype</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="stage">
+    <aside class="side-info">
+      <h1>SIMPEGRS v2.0</h1>
+      <div>Dummy aplikasi pegawai RS multi-cabang — baseline <b>Visual v2.0</b>. Semua data fiktif dan tersimpan di browser.</div>
+      <h2>Coba alur ini</h2>
+      <ul>
+        <li><b>Absen</b> → Trusted Attendance (selfie, geofence, risk score). Ganti skenario fraud di "Mode Demo".</li>
+        <li><b>Home → Cuti &amp; Izin</b> → ajukan, lalu ganti persona ke Kepala Unit untuk menyetujui.</li>
+        <li><b>Inbox → Surat</b> → proses surat dengan TTE internal (PIN <b>123456</b>).</li>
+        <li><b>Inbox → Buat Surat</b> → AI Asisten Surat (simulasi).</li>
+        <li><b>Jadwal</b> → Tukar Dinas &amp; Jadwal Tim (coverage, draft → publish).</li>
+        <li><b>Saya</b> → Digital Employee Wallet.</li>
+      </ul>
+      <h2>Ganti persona</h2>
+      <div>Saya → ikon pengaturan → Mode Demo (Pegawai, Kepala Unit, HR, Direksi).</div>
+    </aside>
+    <div class="device">
+      <div class="statusbar"><span id="sb-time">9:41</span><span>●●●● 5G ▮</span></div>
+      <div id="app"></div>
+    </div>
+  </div>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
